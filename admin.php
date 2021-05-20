@@ -383,6 +383,7 @@ html, body {
 
     function removeuser(event){
       var userid = event.target.parentElement.parentElement.children[2].innerHTML;
+      event.target.parentElement.parentElement.remove();
       db.collection("Users").doc(userid).delete().then(() => {
     console.log("Document successfully deleted!");
 }).catch((error) => {
@@ -414,6 +415,7 @@ fav.get().then(function(querySnapshot) {
 
     function removevendor(event){
       var userid = event.target.parentElement.parentElement.children[2].innerHTML;
+      event.target.parentElement.parentElement.remove();
       db.collection("vendor").doc(userid).delete().then(() => {
     console.log("Document successfully deleted!");
 }).catch((error) => {
@@ -433,6 +435,7 @@ products.get().then(function(querySnapshot) {
 
     function removeadv(event){
       var advid = event.target.parentElement.parentElement.children[2].innerHTML;
+      event.target.parentElement.parentElement.remove();
       db.collection("products").doc(advid).delete().then(() => {
     console.log("Document successfully deleted!");
 }).catch((error) => {
