@@ -552,6 +552,7 @@ a:hover {
   </script>
   <script>
     function allnew() {
+      document.getElementById("demo").innerHTML="";
       document.getElementById("demo").style.display="inline-flex";
           document.getElementById("filter3000").style.display="none";
           document.getElementById("filter4000").style.display="none";
