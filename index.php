@@ -403,7 +403,7 @@ a:hover {
                     </label>
                   </div>
                    <div class="form-check">
-                  <input type="radio" class="form-check-input" name="desc" onclick="allnew()" id="dropdownCheck2">
+                  <input type="radio" class="form-check-input" name="price" onclick="allnew()" id="dropdownCheck2">
                   <label class="form-check-label" for="dropdownCheck2">
                     Clear
                   </label>
