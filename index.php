@@ -335,20 +335,14 @@ a:hover {
                   <input type="radio" class="form-check-input" name="desc" onclick="sortbydesc(event)"
                     id="dropdownCheck2">
                   <label class="form-check-label" for="dropdownCheck2">
-                    &#8377;Descending
+                    Last to First
                   </label>
                 </div>
-                <div class="form-check">
-                  <input type="radio" class="form-check-input" name="desc" onclick="sortbydesc(event)"
-                    id="dropdownCheck2">
-                  <label class="form-check-label" for="dropdownCheck2">
-                    &#8377;Ascending
-                  </label>
-                </div>
+                
                 <div class="form-check">
                   <input type="radio" class="form-check-input" name="desc" onclick="allnew()" id="dropdownCheck2">
                   <label class="form-check-label" for="dropdownCheck2">
-                    &#8377;Clear
+                    Clear
                   </label>
                 </div>
               </a>
@@ -408,6 +402,12 @@ a:hover {
                       &#8377;4000-5000
                     </label>
                   </div>
+                   <div class="form-check">
+                  <input type="radio" class="form-check-input" name="desc" onclick="allnew()" id="dropdownCheck2">
+                  <label class="form-check-label" for="dropdownCheck2">
+                    Clear
+                  </label>
+                </div>
                 </a>
               </div>
             </li>
